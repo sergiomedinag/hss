@@ -1,0 +1,6 @@
+<video poster="{{poster}}" controls preload id="{{id}}" class="{{class}}">
+	{{#sources}}
+	<source src="{{src}}" type="{{type}}"/>
+	{{/sources}}
+</video>
+<a href="#" class="fullscreen">fullscreen</a>
